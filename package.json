@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-no-tabs",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Obsidian plugin that replaces the previous tab when creating a new note",
 	"author": "Tobias Schuster",
 	"main": "main.js",

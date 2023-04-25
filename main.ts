@@ -55,6 +55,7 @@ export default class NoTabsPlugin extends Plugin {
 				"active-leaf-change",
 				(activeLeaf: WorkspaceLeaf) => {
 					if (!this.data.settings.strictMode) return;
+					if (activeLeaf.getViewState().pinned) return;
 					const { type } = activeLeaf.getViewState();
 					if (type === "empty" || type === "markdown") {
 						// @ts-ignore

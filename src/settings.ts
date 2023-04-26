@@ -1,5 +1,5 @@
-import NoTabsPlugin from "main";
 import { App, PluginSettingTab, Setting } from "obsidian";
+import NoTabsPlugin from "./main";
 
 export default class SettingsTab extends PluginSettingTab {
 	private readonly plugin: NoTabsPlugin;

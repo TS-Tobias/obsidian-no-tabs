@@ -1,5 +1,5 @@
 import { Plugin, WorkspaceLeaf } from "obsidian";
-import SettingsTab from "settings";
+import SettingsTab from "./settings";
 
 interface Data {
 	settings: Settings;

@@ -1,6 +1,7 @@
 # No Tabs Obsidian Plugin
 
 > **Extension is no longer maintained**
+>
 > With Obsidian Desktop 1.2.7, a new hotkey was added to Obsidian that makes this extension no longer necessary. Therefore, I have decided to discontinue the development of this extension.
 >
 > To change the default behavior in Obsidian, you can set the hotkey for the command `Create new note in current tab` to `cmd` + `n` and remove the binding for the `Create new note` command.
